@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(64, 149, 248);
+    color: rgb(255, 255, 255);
+    font-size: 28px;
+    font-weight: bold;
+    height: 90px;
+}
+.container{
+   width: 500px;
+   padding: 25px;
+   background-color: #fff;
+   border-radius: 5px;
+   box-shadow: 1px 3px 3px 3px rgb(155, 154, 154);
+   margin: auto;
+   margin-top: 33px;
+}
+.searchBar{
+    display: flex;
+    gap: 6px;
+}
+
+.container input{
+    width: 75%;
+    padding: 10px;
+    height: 20px;
+    border: none;
+    outline: none;
+    background-color: rgb(217, 217, 217);
+    font-size: 18px;
+    border-radius: 3px;
+}
+
+.searchBar button{
+    width: 80px;
+    background-color: orange;
+    color: white;
+    font-size: 18px;
+    border-radius: 5px;
+    border: 1px solid orange;
+}
+
+.text{
+    padding: 22px;
+    margin-top: 15px;
+}
+
+.text p{
+    margin-top: 19px;
+}
+
+.text a{
+    padding: 6px 15px;
+    background-color: rgb(238, 185, 88);
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    position: relative;
+    top: 20px;
+    border-radius: 7px;
+}
+
+.text span{
+    color: rgb(219, 217, 217);
+}
+
+@media screen and (max-width: 600px){
+    .container{
+        width: 80%;
+    }
+}
